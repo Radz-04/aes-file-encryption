@@ -13,6 +13,6 @@ Questo progetto contiene uno script Python che permette di **cifrare** e **decif
 ## Requisiti
 
 Installa la libreria necessaria con:
-'''bash
+'''
 pip install pycryptodome
 
