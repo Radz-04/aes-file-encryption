@@ -13,3 +13,11 @@ Install `pycryptodome` before running the script:
 
 ```bash
 pip install pycryptodome
+```
+## Usage
+
+1. Open `AES.py` and replace the example key and file path with your own:
+   ```python
+   # Example 
+   key = b"ThisIsA16ByteKey"  # Must be 16 bytes
+   file_path = r"C:\path\to\your\file.txt"
