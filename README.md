@@ -1,18 +1,15 @@
 # AES File Encryption
 
-Questo progetto contiene uno script Python che permette di **cifrare** e **decifrare** file di testo usando AES in modalità CBC (Cipher Block Chaining).
+A simple Python script to encrypt and decrypt text files using AES in CBC mode.
 
-## Funzionalità
+## What it does
+- Encrypts text files using AES (CBC mode)
+- Decrypts encrypted files back to original text
+- Automated data padding
+- Generates a random Initialization Vector (IV) for each encryption
 
-- Cifratura di file con AES (modalità CBC)
-- Decifratura di file cifrati
-- Gestione automatica del padding dei dati
-- Uso di Initialization Vector (IV) casuale per ogni cifratura
+## Requirements
+Install `pycryptodome` before running the script:
 
-
-## Requisiti
-
-Installa la libreria necessaria con:
-
+```bash
 pip install pycryptodome
-
