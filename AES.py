@@ -54,7 +54,6 @@ def decrypt_file(file_path, key):
     print("Decrypted file saved to:", output_path)
     return output_path
 
-
 # Example usage
 key = b"ThisIsA16ByteKey"
 file_path = r"C:\path\to\your\file.txt"
